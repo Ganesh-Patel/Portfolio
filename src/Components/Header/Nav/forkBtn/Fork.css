@@ -1,0 +1,26 @@
+.fork-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fork-btn-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    background-color: #CD5EF8;
+    color: white;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fork-btn-inner:hover {
+    background-color: #0056b3;
+  }
+  
+  .fork-btn-inner svg {
+    margin-right: 0.5rem;
+  }
+  

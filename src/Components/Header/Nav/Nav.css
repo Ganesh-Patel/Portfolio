@@ -1,0 +1,65 @@
+.isActive {
+    border-bottom: #CD5EF8 solid 4px;
+  }
+  .apnalink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .nav-icon {
+    margin-right: 0.5rem; /* Adjust icon spacing */
+    font-size: 1.5rem; /* Adjust icon size */
+    vertical-align: middle; /* Align icons vertically */
+  }
+  
+  
+  .logotitle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logotitle h1 {
+    margin: 0;
+    font-size: 3rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #CD5EF8; /* Use the specified color for the logo */
+  }
+  .logotitle h1{
+    cursor: pointer;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 3rem;
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #f2ecec;
+    font-size: 1.2rem; /* Adjust the font size for links */
+    transition: color 0.3s;
+  }
+  
+  .nav-item a:hover {
+    color: #CD5EF8;
+  }
+  

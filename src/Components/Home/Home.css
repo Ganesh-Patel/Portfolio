@@ -1,0 +1,62 @@
+.home{
+    min-height: 120vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.here-section {
+   
+    height: 80vh; /* 80% of viewport height */
+    width: 100%; /* Full width */
+    position: relative;
+  }
+  
+  .intro-section {
+    height: 90vh; /* 80% of viewport height */
+    width: 100%; /* Full width */
+    background-color: transparent; /* Background color for the intro section */
+    background-image:url(../../Assets/home-bg.jpg) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('path/to/your/image.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; /* Adjust opacity as needed */
+  }
+  
+  .home-header {
+    padding-bottom: 15px;
+  }
+  
+  .heading {
+    font-size: 2rem;
+  }
+  
+  .heading-name {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .main-name {
+    color: #CD5EF8; /* Adjust text color as needed */
+  }
+  
+  .Typewriter {
+    padding: 50px;
+    text-align: left;
+  }
+  
+  .img-fluid {
+    max-height: 450px;
+  }

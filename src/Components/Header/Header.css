@@ -1,0 +1,17 @@
+/* Header.css */
+
+.header {
+    width: 100vw;
+    background-color: transparent; /* Transparent background */
+    height: 9vh;
+    position: fixed;
+    top: 0;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .header.scrolled {
+    backdrop-filter: blur(50px); /* Adjust blur effect as needed */
+    -webkit-backdrop-filter: blur(50px); /* For Safari */
+    background-color: rgba(4, 4, 4, 0.5); /* Semi-transparent background color on scroll */
+  }
+  
