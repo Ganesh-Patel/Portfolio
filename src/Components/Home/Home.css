@@ -1,26 +1,53 @@
 .home{
-    min-height: 120vh;
-    max-height: auto;
+    height: 180vh;
     display: flex;
     flex-direction: column;
   
-}
-
-.here-section {
-   
-    height: 80vh; /* 80% of viewport height */
-    width: 100%; /* Full width */
-    position: relative;
-  }
-  
+} 
   .intro-section {
     height: 90vh; /* 80% of viewport height */
     width: 100%; /* Full width */
     background-color: transparent; /* Background color for the intro section */
     background-image:url(../../Assets/home-bg.jpg) ;
     display: flex;
-    justify-content: center;
     align-items: center;
+  }
+
+  .main-content{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+  }
+  .main-item1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-item2{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.here-section {
+    background-color: transparent;
+    backdrop-filter: blur(10px); /* Adjust blur effect as needed */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    background-color: rgba(4, 4, 4, 0.5);
+    height: 80vh;
+    width: 100%; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .bg-image {

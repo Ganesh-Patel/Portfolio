@@ -1,0 +1,16 @@
+/* Project.css */  
+  .project-section {
+    background-color: rgba(4, 4, 4, 0.5);
+    backdrop-filter: blur(10px); /* Adjust blur effect as needed */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    height: 140vh;
+    width: 100%;
+    z-index: -1;
+    /* border: 5px solid red; */
+  }
+  
+  .project-content {
+    text-align: center;
+    color: #fff;
+  }
+  

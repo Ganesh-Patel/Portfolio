@@ -4,6 +4,7 @@
     width: 100vw;
     background-color: transparent; /* Transparent background */
     height: 9vh;
+    z-index: 9999;
     position: fixed;
     top: 0;
     transition: background-color 0.3s ease; /* Smooth transition for background color */

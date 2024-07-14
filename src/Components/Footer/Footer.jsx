@@ -18,13 +18,13 @@ function Footer() {
                 <h3>Designed and Developed by Ganesh Patel</h3>
             </div>
             <div className="footer-item2">
-                <h3>Copyright © {year} SB</h3>
+                <h3>Copyright © {year} GP</h3>
             </div>
             <div className="footer-item3">
                 <ul className="footer-icons">
                     <li>
                         <a
-                            href="https://github.com/soumyajit4419"
+                            href="https://github.com/Ganesh-Patel/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -33,7 +33,7 @@ function Footer() {
                     </li>
                     <li>
                         <a
-                            href="https://twitter.com/Soumyajit4419"
+                            href="#"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -42,7 +42,7 @@ function Footer() {
                     </li>
                     <li>
                         <a
-                            href="https://www.linkedin.com/in/soumyajit4419/"
+                            href="https://www.linkedin.com/in/mr-ganesh-a305a51b3/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -51,7 +51,7 @@ function Footer() {
                     </li>
                     <li>
                         <a
-                            href="https://www.instagram.com/soumyajit4419"
+                            href="#"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
