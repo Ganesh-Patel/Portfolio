@@ -6,6 +6,7 @@ import Home from './Components/Home/Home.jsx'
 import Projects from './Components/Projects/Projects.jsx'
 import About from './Components/About/About.jsx'
 import Footer from './Components/Footer/Footer.jsx';
+import Resume from './Components/Resume/Resume.jsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
         {/* Add more routes as needed */}
       </Routes>
       <Footer />
